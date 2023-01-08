@@ -1,5 +1,9 @@
 package Spring_IOC;
 
+// Bean:
+// <bean>
+//     <property name="name" value="Tom"></property>
+// </bean>
 public class Person {
     private String name;
     private String gender;

@@ -14,7 +14,6 @@ public class MySpringContainer {
     static {
         Properties properties = new Properties();
         InputStream inputStream = Thread.currentThread().getContextClassLoader().getResourceAsStream("./Spring_IOC/MyApplication.yaml");
-        System.out.println(inputStream.toString());
         try {
             properties.load(inputStream);
             Enumeration en = properties.propertyNames();
